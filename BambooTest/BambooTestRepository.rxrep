@@ -1,0 +1,69 @@
+﻿<repository
+id="63ccd909-3b03-406e-9659-016877e9a385"
+name="BambooTestRepository"
+rxversion="7.0">
+	<codegen
+	classname="BambooTestRepository"
+	namespace="BambooTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b24f02f0-15cd-4841-b040-51634afbe633"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="b6cc96c8-9cff-4965-865a-045ec37a6c54"
+		isrooted="True"
+		name="DownloadRanorexCom"
+		refpath="/dom[@domain='download.ranorex.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="e7f0e528-dd95-4090-8de6-e23e927ce4e6"
+			name="FirstCombobox"
+			refimgid="a7957caf-f12a-4634-be70-a906e10ae733"
+			refpath="/dom[@domain='download.ranorex.com']//select[#'firstCombobox']"
+			searchtimeout="30000ms">
+				/dom[@domain='download.ranorex.com']//select[#'firstCombobox']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="d6cb85f4-a034-4313-8115-b680fe49bc6d"
+			name="SecondCombobox"
+			refimgid="738613c3-e4d8-4558-816a-e167b559b3d6"
+			refpath="/dom[@domain='download.ranorex.com']//select[#'secondCombobox']"
+			searchtimeout="30000ms">
+				/dom[@domain='download.ranorex.com']//select[#'secondCombobox']
+			</item>
+			<basepath>
+				/dom[@domain='download.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
