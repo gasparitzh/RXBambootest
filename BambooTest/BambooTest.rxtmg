@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <modulegroupdoc
-rxversion="7.0">
-  <testsuiteentryhierarchy>
-    <flatlistofchildren>
-      <modulegroups
-      name="BambooTest"
-      id="160486cc-09ee-4a3d-b873-590d342bf7ae"/>
-    </flatlistofchildren>
-    <childhierarchy>
-      <modulegroups
-      name="BambooTest"
-      id="160486cc-09ee-4a3d-b873-590d342bf7ae"/>
-    </childhierarchy>
-  </testsuiteentryhierarchy>
+rxversion="7.1">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="160486cc-09ee-4a3d-b873-590d342bf7ae"
+			name="BambooTest">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="160486cc-09ee-4a3d-b873-590d342bf7ae"
+			name="BambooTest">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
 </modulegroupdoc>

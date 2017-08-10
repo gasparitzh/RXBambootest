@@ -1,5 +1,5 @@
 ﻿<configuration
-rxversion="7.0">
+rxversion="7.1">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
@@ -1246,16 +1246,25 @@ rxversion="7.0">
 	<plugin.webdriver.domfetchmode>
 		WhenChanged
 	</plugin.webdriver.domfetchmode>
-	<plugin.webdriver.autoupdatewindowsize>
-		2000ms
-	</plugin.webdriver.autoupdatewindowsize>
-	<plugin.webdriver.autoupdatewindowsizemultiplier>
-		3
-	</plugin.webdriver.autoupdatewindowsizemultiplier>
 	<plugin.webdriver.tabautomation>
 		False
 	</plugin.webdriver.tabautomation>
 	<plugin.webdriver.attachToOpenSessions>
 		False
 	</plugin.webdriver.attachToOpenSessions>
+	<plugin.webdriver.domUpdateInterval>
+		1000ms
+	</plugin.webdriver.domUpdateInterval>
+	<plugin.webdriver.screenshotUpdateInterval>
+		3000ms
+	</plugin.webdriver.screenshotUpdateInterval>
+	<plugin.webdriver.screenshotUpdate>
+		False
+	</plugin.webdriver.screenshotUpdate>
+	<plugin.webdriver.autoupdatewindowsize>
+		2000ms
+	</plugin.webdriver.autoupdatewindowsize>
+	<plugin.webdriver.autoupdatewindowsizemultiplier>
+		3
+	</plugin.webdriver.autoupdatewindowsizemultiplier>
 </configuration>

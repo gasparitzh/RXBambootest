@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>BambooTest</RootNamespace>
     <AssemblyName>BambooTest</AssemblyName>
-    <RanorexVersion>7.0</RanorexVersion>
+    <RanorexVersion>7.1</RanorexVersion>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>20c3f0ca-79b8-4b12-a897-39c9b5e9c6a8</projectdefaultrepository>
@@ -76,20 +76,80 @@
       <RepositoryCode>true</RepositoryCode>
       <id>ece88359-1794-468a-b221-b03b3a73c235</id>
     </Compile>
+    <Compile Include="CloseRegisterForm.cs">
+      <BoundTo>acbf02c1-b277-439a-91ee-d5a1ed0127db</BoundTo>
+      <DependentUpon>CloseRegisterForm.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4e063ecd-91bc-4a8c-a895-65267ca9629c</id>
+    </Compile>
+    <Compile Include="CloseRegisterForm.UserCode.cs">
+      <BoundTo>acbf02c1-b277-439a-91ee-d5a1ed0127db</BoundTo>
+      <DependentUpon>CloseRegisterForm.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0866d662-e02f-444d-a654-184f423044f0</id>
+    </Compile>
+    <Compile Include="FillRegisterForm.cs">
+      <BoundTo>40256521-ee34-4e39-b3fd-35689ca9c670</BoundTo>
+      <DependentUpon>FillRegisterForm.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e964163f-8c12-4595-a7e2-7a2a78a26cb8</id>
+    </Compile>
+    <Compile Include="FillRegisterForm.UserCode.cs">
+      <BoundTo>40256521-ee34-4e39-b3fd-35689ca9c670</BoundTo>
+      <DependentUpon>FillRegisterForm.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>867d4ce2-ec64-4946-a15a-44112fdc724c</id>
+    </Compile>
+    <Compile Include="OpenDownloadTrialLink.cs">
+      <BoundTo>30ce621b-a14d-4a7a-9d4b-82a5392f42d7</BoundTo>
+      <DependentUpon>OpenDownloadTrialLink.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ae328061-67b5-4cb8-b4dd-d88e757cd614</id>
+    </Compile>
+    <Compile Include="OpenDownloadTrialLink.UserCode.cs">
+      <BoundTo>30ce621b-a14d-4a7a-9d4b-82a5392f42d7</BoundTo>
+      <DependentUpon>OpenDownloadTrialLink.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>920614d6-8f24-4336-b0b0-6d306d65d0b1</id>
+    </Compile>
+    <Compile Include="OpenRanorexCom.cs">
+      <BoundTo>a17136b2-fe9b-45ae-8b0f-2f11816ac45b</BoundTo>
+      <DependentUpon>OpenRanorexCom.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d99ca98b-dc42-4194-81f7-f1100e8a6537</id>
+    </Compile>
+    <Compile Include="OpenRanorexCom.UserCode.cs">
+      <BoundTo>a17136b2-fe9b-45ae-8b0f-2f11816ac45b</BoundTo>
+      <DependentUpon>OpenRanorexCom.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c3f00118-2d38-4a18-9f30-1fbe404f48e4</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>ce47f2f8-b92b-4cd0-aee4-b42d37204b20</id>
     </Compile>
-    <Compile Include="Recording1.cs">
+    <Compile Include="CloseRanorexCom.cs">
       <BoundTo>1efe3c50-4b7e-40b6-82e4-a839bcd6ca05</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <DependentUpon>CloseRanorexCom.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>e476e292-0cea-4eb3-ab61-bcb65ee2366f</id>
     </Compile>
-    <Compile Include="Recording1.UserCode.cs">
+    <Compile Include="CloseRanorexCom.UserCode.cs">
       <BoundTo>1efe3c50-4b7e-40b6-82e4-a839bcd6ca05</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <DependentUpon>CloseRanorexCom.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>92587411-7fbe-4713-99a4-3833b3b1508f</id>
+    </Compile>
+    <Compile Include="VerifyWebpageLoaded.cs">
+      <BoundTo>61a9d939-ea1a-4561-adb2-846eca85dd82</BoundTo>
+      <DependentUpon>VerifyWebpageLoaded.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>18dd46ad-9dd5-4d4a-802a-b942627adc83</id>
+    </Compile>
+    <Compile Include="VerifyWebpageLoaded.UserCode.cs">
+      <BoundTo>61a9d939-ea1a-4561-adb2-846eca85dd82</BoundTo>
+      <DependentUpon>VerifyWebpageLoaded.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>53261595-e714-4fd6-acb7-8b5ca08ea241</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -107,10 +167,35 @@
       <repoid>63ccd909-3b03-406e-9659-016877e9a385</repoid>
       <reporootid>b24f02f0-15cd-4841-b040-51634afbe633</reporootid>
     </None>
-    <None Include="Recording1.rxrec">
+    <None Include="CloseRegisterForm.rxrec">
+      <BoundTo>20c3f0ca-79b8-4b12-a897-39c9b5e9c6a8</BoundTo>
+      <id>acbf02c1-b277-439a-91ee-d5a1ed0127db</id>
+      <recordtableid>f24e871f-da6d-48f5-b1c6-5f101ee34b17</recordtableid>
+    </None>
+    <None Include="FillRegisterForm.rxrec">
+      <BoundTo>20c3f0ca-79b8-4b12-a897-39c9b5e9c6a8</BoundTo>
+      <id>40256521-ee34-4e39-b3fd-35689ca9c670</id>
+      <recordtableid>0d0789d0-3bd6-49bf-b422-efcafa58183e</recordtableid>
+    </None>
+    <None Include="OpenDownloadTrialLink.rxrec">
+      <BoundTo>20c3f0ca-79b8-4b12-a897-39c9b5e9c6a8</BoundTo>
+      <id>30ce621b-a14d-4a7a-9d4b-82a5392f42d7</id>
+      <recordtableid>54373696-a069-4d01-94a0-b9e171a3bb63</recordtableid>
+    </None>
+    <None Include="OpenRanorexCom.rxrec">
+      <id>a17136b2-fe9b-45ae-8b0f-2f11816ac45b</id>
+      <recordtableid>a93014bd-97df-422f-8f3a-f2cc051d353d</recordtableid>
+      <BoundTo>20c3f0ca-79b8-4b12-a897-39c9b5e9c6a8</BoundTo>
+    </None>
+    <None Include="CloseRanorexCom.rxrec">
       <BoundTo>20c3f0ca-79b8-4b12-a897-39c9b5e9c6a8</BoundTo>
       <id>1efe3c50-4b7e-40b6-82e4-a839bcd6ca05</id>
       <recordtableid>922cc9b9-6600-4fab-937b-0c4098819856</recordtableid>
+    </None>
+    <None Include="VerifyWebpageLoaded.rxrec">
+      <BoundTo>20c3f0ca-79b8-4b12-a897-39c9b5e9c6a8</BoundTo>
+      <id>61a9d939-ea1a-4561-adb2-846eca85dd82</id>
+      <recordtableid>e989ba88-51e3-4400-b603-a48f711da428</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

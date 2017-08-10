@@ -1,7 +1,7 @@
 ﻿<repository
 id="63ccd909-3b03-406e-9659-016877e9a385"
 name="BambooTestRepository"
-rxversion="7.0">
+rxversion="7.1">
 	<codegen
 	classname="BambooTestRepository"
 	namespace="BambooTest">
@@ -16,34 +16,82 @@ rxversion="7.0">
 		<appfolder
 		addcaps="container,webdocument"
 		capname="webdocument"
-		id="b6cc96c8-9cff-4965-865a-045ec37a6c54"
+		id="0a4028cd-0a11-460b-85c7-fc770bb16c7e"
 		isrooted="True"
-		name="DownloadRanorexCom"
-		refpath="/dom[@domain='download.ranorex.com']"
+		name="RanorexWebpage"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
-			addcaps="unknown,webelement,selecttag"
-			capname="selecttag"
-			id="e7f0e528-dd95-4090-8de6-e23e927ce4e6"
-			name="FirstCombobox"
-			refimgid="a7957caf-f12a-4634-be70-a906e10ae733"
-			refpath="/dom[@domain='download.ranorex.com']//select[#'firstCombobox']"
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="4e8f41f4-1ac0-43b5-a209-2e13a6d89654"
+			name="RanorexTestAutomation"
+			refimgid="5ceea361-162b-4d05-a9cb-ce3e520cda78"
 			searchtimeout="30000ms">
-				/dom[@domain='download.ranorex.com']//select[#'firstCombobox']
+				/dom[@domain='www.ranorex.com']//div[#'main-nav']//img[@alt='Ranorex test automation']
 			</item>
 			<item
-			addcaps="unknown,webelement,selecttag"
-			capname="selecttag"
-			id="d6cb85f4-a034-4313-8115-b680fe49bc6d"
-			name="SecondCombobox"
-			refimgid="738613c3-e4d8-4558-816a-e167b559b3d6"
-			refpath="/dom[@domain='download.ranorex.com']//select[#'secondCombobox']"
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="3fb9cd16-dd37-4620-820c-b13a376373cc"
+			name="DownloadLink"
+			refimgid="d3d7e325-9162-4372-89f4-e6330dcb0ae2"
+			refpath="/dom[@domain='www.ranorex.com']//a[#'download-link']"
 			searchtimeout="30000ms">
-				/dom[@domain='download.ranorex.com']//select[#'secondCombobox']
+				/dom[@domain='www.ranorex.com']//a[#'download-link']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b97f47ed-fff3-42d1-9adc-0b7373a657c8"
+			name="FormEmail"
+			refimgid="4351af05-b474-40d1-b8dd-3aa47b035043"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'form-Email']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'form-Email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="4ca49f11-8b10-4da5-b201-14c6c8a88d29"
+			name="FormFirstName"
+			refimgid="1e8fb6b0-e9c9-42d2-a071-b209f0a0789f"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'form-FirstName']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'form-FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bce8c729-7f8e-4d35-95c0-435ecd7e586c"
+			name="FormLastName"
+			refimgid="f9f820e3-206e-4ae1-a5f1-57e071b88a45"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'form-LastName']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'form-LastName']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="9cdf99fd-af8d-4f8b-81b7-1c26387d10af"
+			name="Register"
+			refimgid="116ff1e5-8ff4-44f2-9b2a-a7e8b0692609"
+			refpath="/dom[@domain='www.ranorex.com']//fieldset[#'first-form']/div[2]/button[@innertext='Register']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//fieldset[#'first-form']/?/?/button[@innertext='Register']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="8142e401-eb9f-4017-89f8-d758426a7fef"
+			name="IconExit"
+			refimgid="a1fe7581-88b1-477b-8722-4f101c64ca9c"
+			refpath="/dom[@domain='www.ranorex.com']//fieldset[#'first-form']/div[1]/div[1]/span"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//fieldset[#'first-form']//span
 			</item>
 			<basepath>
-				/dom[@domain='download.ranorex.com']
+				/dom[@domain='www.ranorex.com']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN

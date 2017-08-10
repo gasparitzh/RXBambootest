@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-# Ranorex Studio 7.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooTest", "BambooTest\BambooTest.csproj", "{11ABB1C1-A733-45E9-B330-B22F869F99A5}"
-EndProject
+# Ranorex Studio 7.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B221AC7B-868D-4ADF-B349-946E473C0B78}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooTest", "BambooTest\BambooTest.csproj", "{11ABB1C1-A733-45E9-B330-B22F869F99A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

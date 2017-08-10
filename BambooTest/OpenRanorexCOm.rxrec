@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a93014bd-97df-422f-8f3a-f2cc051d353d"
+mode="Global"
+rxversion="7.1">
+	<name>
+		OpenRanorexCom
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenRanorexCom"
+	namespace="BambooTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://www.ranorex.com
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="63ccd909-3b03-406e-9659-016877e9a385"
+	name="BambooTestRepository"
+	relativepath="BambooTestRepository.rxrep"
+	rxversion="7.1">
+		<codegen
+		classname="BambooTestRepository"
+		namespace="BambooTest">
+		</codegen>
+		<rootfolder
+		id="b24f02f0-15cd-4841-b040-51634afbe633"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenRanorexCom.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

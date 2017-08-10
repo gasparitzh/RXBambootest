@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="54373696-a069-4d01-94a0-b9e171a3bb63"
+mode="Global"
+rxversion="7.1">
+	<name>
+		OpenDownloadTrialLink
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenDownloadTrialLink"
+	namespace="BambooTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5be8f828-d746-442c-ad08-f44d3a407702"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3fb9cd16-dd37-4620-820c-b13a376373cc"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.ranorex.com']//a[#'download-link']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="63ccd909-3b03-406e-9659-016877e9a385"
+	name="BambooTestRepository"
+	relativepath="BambooTestRepository.rxrep"
+	rxversion="7.1">
+		<codegen
+		classname="BambooTestRepository"
+		namespace="BambooTest">
+		</codegen>
+		<rootfolder
+		id="b24f02f0-15cd-4841-b040-51634afbe633"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenDownloadTrialLink.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

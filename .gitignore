@@ -1,0 +1,15 @@
+#Ranorex Project GitIgnore File
+#Created by: HGasparitz
+#Email: hgasparitz@ranorex.com
+#Date: 07.06.2017
+
+# Build results
+bin/
+obj/
+Report/
+# RepositoryImages/
+
+#Project files to ignore
+*.pref
+*.sln
+*.rxuser
