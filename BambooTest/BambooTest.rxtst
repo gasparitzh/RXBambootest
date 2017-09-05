@@ -19,6 +19,12 @@ rxversion="7.1">
 			ref="54373696-a069-4d01-94a0-b9e171a3bb63"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="4b218ddd-8615-4c46-9579-50b51fba54bf"
+			name="ModuleFail"
+			ref="60ed96f3-f204-4442-8940-84ff97d6c10c"
+			type="Recording">
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -33,6 +39,10 @@ rxversion="7.1">
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testcase
+			id="7480a1bd-ee18-40f2-8d6b-bc503c9282e8"
+			name="TC_Fails11">
+			</testcase>
 			<testmodule
 			id="9f308c3e-86e2-425f-aea9-bb280f5d2f50"
 			name="FillRegisterForm"
@@ -50,6 +60,16 @@ rxversion="7.1">
 			name="BambooTest"
 			reportlevel="Info;20">
 			</testcase>
+			<testcase
+			id="de2c89ae-0010-41c2-a782-8d9137f79b47"
+			name="TC_Fails1">
+			</testcase>
+			<testmodule
+			id="e4cf6e68-0856-47df-b38e-4dbf22cc2c98"
+			name="ModuleFail"
+			ref="60ed96f3-f204-4442-8940-84ff97d6c10c"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="eca7d910-c92d-4295-8e3a-be19a4b374e5"
 			name="OpenRanorexCom"
@@ -98,6 +118,22 @@ rxversion="7.1">
 						name="CloseRanorexCom">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="de2c89ae-0010-41c2-a782-8d9137f79b47"
+					name="TC_Fails1">
+						<testmodule
+						id="4b218ddd-8615-4c46-9579-50b51fba54bf"
+						name="ModuleFail">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="7480a1bd-ee18-40f2-8d6b-bc503c9282e8"
+					name="TC_Fails11">
+						<testmodule
+						id="e4cf6e68-0856-47df-b38e-4dbf22cc2c98"
+						name="ModuleFail">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -112,7 +148,13 @@ rxversion="7.1">
 			id="1e1c21e4-6d06-420b-8011-7d3e7372c25f">
 			</testcontainer>
 			<testcontainer
+			id="7480a1bd-ee18-40f2-8d6b-bc503c9282e8">
+			</testcontainer>
+			<testcontainer
 			id="b2d42fac-e647-4dec-887a-1fdb4096a9f3">
+			</testcontainer>
+			<testcontainer
+			id="de2c89ae-0010-41c2-a782-8d9137f79b47">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

@@ -100,6 +100,18 @@
       <UserCode>true</UserCode>
       <id>867d4ce2-ec64-4946-a15a-44112fdc724c</id>
     </Compile>
+    <Compile Include="ModuleFail.cs">
+      <BoundTo>c6a49b9b-4e50-4da5-be0b-9f24dd0c80ae</BoundTo>
+      <DependentUpon>ModuleFail.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7db2ee78-1e18-4896-a980-de04007a301f</id>
+    </Compile>
+    <Compile Include="ModuleFail.UserCode.cs">
+      <BoundTo>c6a49b9b-4e50-4da5-be0b-9f24dd0c80ae</BoundTo>
+      <DependentUpon>ModuleFail.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2a00b0a3-8a01-4e6d-88fc-7d8e9a337b4e</id>
+    </Compile>
     <Compile Include="OpenDownloadTrialLink.cs">
       <BoundTo>30ce621b-a14d-4a7a-9d4b-82a5392f42d7</BoundTo>
       <DependentUpon>OpenDownloadTrialLink.rxrec</DependentUpon>
@@ -176,6 +188,11 @@
       <BoundTo>20c3f0ca-79b8-4b12-a897-39c9b5e9c6a8</BoundTo>
       <id>40256521-ee34-4e39-b3fd-35689ca9c670</id>
       <recordtableid>0d0789d0-3bd6-49bf-b422-efcafa58183e</recordtableid>
+    </None>
+    <None Include="ModuleFail.rxrec">
+      <BoundTo>20c3f0ca-79b8-4b12-a897-39c9b5e9c6a8</BoundTo>
+      <id>c6a49b9b-4e50-4da5-be0b-9f24dd0c80ae</id>
+      <recordtableid>60ed96f3-f204-4442-8940-84ff97d6c10c</recordtableid>
     </None>
     <None Include="OpenDownloadTrialLink.rxrec">
       <BoundTo>20c3f0ca-79b8-4b12-a897-39c9b5e9c6a8</BoundTo>
